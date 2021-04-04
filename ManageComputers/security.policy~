@@ -1,0 +1,7 @@
+/* AUTOMATICALLY GENERATED ON Fri Feb 26 14:18:33 MST 2021*/
+/* DO NOT EDIT */
+
+grant codeBase "file:/root/ManageComputers/*" {
+  permission java.io.FilePermission "file:/root/assign1Data/*", "read, write, delete";
+};
+

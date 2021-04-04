@@ -1,0 +1,16 @@
+/* AUTOMATICALLY GENERATED ON Tue Feb 23 19:36:57 MST 2021*/
+/* DO NOT EDIT */
+
+grant {
+  permission java.util.PropertyPermission "java.home", "read";
+};
+
+grant codeBase "./assign1Data" {
+  permission java.io.FilePermission "./assign1Data/0.txt", "read, write";
+};
+
+grant {
+  permission java.io.FilePermission "Domian.jar", "read";
+  permission java.io.FilePermission "assign1Data", "read, write";
+};
+
